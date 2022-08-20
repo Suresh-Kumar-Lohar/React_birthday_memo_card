@@ -13,7 +13,6 @@ function App() {
         <button
           onClick={() => {
             temp_people.pop();
-            console.log(temp_people);
             setPeople(temp_people);
           }}
         >
